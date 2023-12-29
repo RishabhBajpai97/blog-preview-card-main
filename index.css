@@ -1,0 +1,40 @@
+html {
+  width: 100%;
+}
+@font-face {
+  font-family: Figtree;
+  src: url("assets/fonts/static/Figtree-SemiBold.ttf");
+}
+
+body {
+  background-color: yellow;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  margin-inline: 1rem;
+  border: 1px solid black;
+  box-shadow: 10px 10px;
+  background-color: white;
+  padding: 1rem;
+  border-radius: 20px;
+  width: 336px;
+  gap: 1rem;
+  display: flexbox;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.title {
+  color: black;
+  font-family: "Figtree";
+  font-size: 1.5rem;
+  transition: color 0.3s;
+}
+.title:hover{
+  color: #f4cf4e;
+  cursor: pointer;
+}
